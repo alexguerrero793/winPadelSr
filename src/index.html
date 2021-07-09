@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>WinPadelSr</title>
@@ -7,7 +8,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <app-root></app-root>
+
+  <!-- FIREBASE -->
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC487WO3INrNgZO8ErowDp8QESdhvzqUyk",
+      authDomain: "winpadel-sr.firebaseapp.com",
+      projectId: "winpadel-sr",
+      storageBucket: "winpadel-sr.appspot.com",
+      messagingSenderId: "905683423314",
+      appId: "1:905683423314:web:6ceedb6193dd6969594f8b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <!-- END FIREBASE -->
 </body>
+
 </html>
