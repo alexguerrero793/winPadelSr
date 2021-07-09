@@ -8,6 +8,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //...........
 //MATERIAL
 import { MatSliderModule } from '@angular/material/slider';
+import { HomeComponent } from './views/home/home.component';
+import { RegistreComponent } from './views/registre/registre.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 
 //...........
@@ -19,7 +22,10 @@ import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    RegistreComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
