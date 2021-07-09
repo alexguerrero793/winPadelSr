@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/winPadelSr",
     "ignore": [
       "firebase.json",
       "**/.*",
