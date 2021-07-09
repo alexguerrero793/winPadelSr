@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "winPadelSr"
+    }
+  },
+  "defaultProject": "winPadelSr",
+  "cli": {
+    "analytics": false
+  }
 }
